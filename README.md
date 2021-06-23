@@ -18,3 +18,9 @@ indicating readable error to help user.
 In fact, the name (case-insensitive) of all discovery elements is not a LL(2) language. However, without some rare cases, it may form a LL(2) language.
 
 So i will add several mode: fully indexed, free but case-sensitive, or case-insensitive without some elements.
+
+List of not supported elements in case-insensitive mode:
+Si, Sc, Co, Ni, Cu, Nb, In, Sn, Sb, Cs, Hf, Os, Pb, Bi, Po, Bh, Hs, Cn, Nh, 
+Ho, Yb, Np, Pu, Bk, Cf, No.
+
+The case-sensitive mode will be the default mode.
