@@ -14,7 +14,10 @@ Current version only support simple molecules without isotopes. But the feature 
 
 ##### Free syntax
 
-Currently all elements should be fully indexed, for example CH4 is not allowed but C1H4 is allowed.
+Currently supports case-sensitive mode (default mode). 
+All second character of two-characters elements should be upper case.
+
+Fully indexed mode also exists (deprecated), for example CH4 is not allowed but C1H4 is allowed.
 
 I will later add the support for a more 'natural' syntax to support a more free syntax, with more precise syntactic analysis 
 indicating readable error to help user.
